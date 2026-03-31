@@ -19,74 +19,155 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "installation"
+            "tab": "Documentation",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": [
+                  "introduction",
+                  "quickstart",
+                  "installation"
+                ]
+              },
+              {
+                "group": "Core Concepts",
+                "pages": [
+                  "concepts/how-it-works",
+                  "concepts/memory-context",
+                  "concepts/permissions",
+                  "concepts/tools"
+                ]
+              },
+              {
+                "group": "Guides",
+                "pages": [
+                  "guides/authentication",
+                  "guides/mcp-servers",
+                  "guides/hooks",
+                  "guides/skills",
+                  "guides/multi-agent"
+                ]
+              },
+              {
+                "group": "Configuration",
+                "pages": [
+                  "configuration/settings",
+                  "configuration/claudemd",
+                  "configuration/environment-variables"
+                ]
+              }
             ]
           },
           {
-            "group": "Core Concepts",
-            "pages": [
-              "concepts/how-it-works",
-              "concepts/memory-context",
-              "concepts/permissions",
-              "concepts/tools"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "guides/authentication",
-              "guides/mcp-servers",
-              "guides/hooks",
-              "guides/skills",
-              "guides/multi-agent"
-            ]
-          },
-          {
-            "group": "Configuration",
-            "pages": [
-              "configuration/settings",
-              "configuration/claudemd",
-              "configuration/environment-variables"
+            "tab": "Reference",
+            "groups": [
+              {
+                "group": "Commands",
+                "pages": [
+                  "reference/commands/overview",
+                  "reference/commands/slash-commands",
+                  "reference/commands/cli-flags"
+                ]
+              },
+              {
+                "group": "Built-in Tools",
+                "pages": [
+                  "reference/tools/bash",
+                  "reference/tools/file-operations",
+                  "reference/tools/search",
+                  "reference/tools/web",
+                  "reference/tools/agent"
+                ]
+              },
+              {
+                "group": "SDK & Extensibility",
+                "pages": [
+                  "reference/sdk/overview",
+                  "reference/sdk/hooks-reference",
+                  "reference/sdk/permissions-api"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Reference",
-        "groups": [
+        "language": "zh",
+        "tabs": [
           {
-            "group": "Commands",
-            "pages": [
-              "reference/commands/overview",
-              "reference/commands/slash-commands",
-              "reference/commands/cli-flags"
+            "tab": "文档",
+            "groups": [
+              {
+                "group": "快速开始",
+                "pages": [
+                  "zh/introduction",
+                  "zh/quickstart",
+                  "zh/installation"
+                ]
+              },
+              {
+                "group": "核心概念",
+                "pages": [
+                  "zh/concepts/how-it-works",
+                  "zh/concepts/memory-context",
+                  "zh/concepts/permissions",
+                  "zh/concepts/tools"
+                ]
+              },
+              {
+                "group": "指南",
+                "pages": [
+                  "zh/guides/authentication",
+                  "zh/guides/mcp-servers",
+                  "zh/guides/hooks",
+                  "zh/guides/skills",
+                  "zh/guides/multi-agent"
+                ]
+              },
+              {
+                "group": "配置",
+                "pages": [
+                  "zh/configuration/settings",
+                  "zh/configuration/claudemd",
+                  "zh/configuration/environment-variables"
+                ]
+              }
             ]
           },
           {
-            "group": "Built-in Tools",
-            "pages": [
-              "reference/tools/bash",
-              "reference/tools/file-operations",
-              "reference/tools/search",
-              "reference/tools/web",
-              "reference/tools/agent"
-            ]
-          },
-          {
-            "group": "SDK & Extensibility",
-            "pages": [
-              "reference/sdk/overview",
-              "reference/sdk/hooks-reference",
-              "reference/sdk/permissions-api"
+            "tab": "参考",
+            "groups": [
+              {
+                "group": "命令",
+                "pages": [
+                  "zh/reference/commands/overview",
+                  "zh/reference/commands/slash-commands",
+                  "zh/reference/commands/cli-flags"
+                ]
+              },
+              {
+                "group": "内置工具",
+                "pages": [
+                  "zh/reference/tools/bash",
+                  "zh/reference/tools/file-operations",
+                  "zh/reference/tools/search",
+                  "zh/reference/tools/web",
+                  "zh/reference/tools/agent"
+                ]
+              },
+              {
+                "group": "SDK 与扩展",
+                "pages": [
+                  "zh/reference/sdk/overview",
+                  "zh/reference/sdk/hooks-reference",
+                  "zh/reference/sdk/permissions-api"
+                ]
+              }
             ]
           }
         ]
