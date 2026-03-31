@@ -1,0 +1,96 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Claude Code",
+  "theme": "luma",
+  "colors": {
+    "primary": "#D97757",
+    "light": "#FFF0EA",
+    "dark": "#8B3A20"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/VineeTagarwaL-code/claude-code"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/VineeTagarwaL-code/claude-code"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/how-it-works",
+              "concepts/memory-context",
+              "concepts/permissions",
+              "concepts/tools"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/authentication",
+              "guides/mcp-servers",
+              "guides/hooks",
+              "guides/skills",
+              "guides/multi-agent"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/settings",
+              "configuration/claudemd",
+              "configuration/environment-variables"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Commands",
+            "pages": [
+              "reference/commands/overview",
+              "reference/commands/slash-commands",
+              "reference/commands/cli-flags"
+            ]
+          },
+          {
+            "group": "Built-in Tools",
+            "pages": [
+              "reference/tools/bash",
+              "reference/tools/file-operations",
+              "reference/tools/search",
+              "reference/tools/web",
+              "reference/tools/agent"
+            ]
+          },
+          {
+            "group": "SDK & Extensibility",
+            "pages": [
+              "reference/sdk/overview",
+              "reference/sdk/hooks-reference",
+              "reference/sdk/permissions-api"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
